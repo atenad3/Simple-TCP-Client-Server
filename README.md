@@ -1,1 +1,1 @@
-# Simple-TCP-Client-Server
+# Simple TCP Client/Server implementaion in C++ Qt.
