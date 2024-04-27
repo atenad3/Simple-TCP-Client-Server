@@ -4,8 +4,6 @@
 #include <QTcpServer>
 #include "mainwindow.h"
 #include <QIODevice>
-#include <mythread.h>
-
 
 class MainWindow;
 class helloServer : public QTcpServer
