@@ -29,10 +29,5 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-
-INCLUDEPATH += /home/atefe/Downloads/ampl.linux-intel64/amplapi/include
-# LIBS += -L/home/atefe/Downloads/ampl.linux-intel64/amplapi/lib/
-LIBS += -L/home/atefe/Downloads/ampl.linux-intel64/amplapi/lib/ -lampl
-
 DISTFILES += \
     test1.mod
